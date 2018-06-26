@@ -7,6 +7,7 @@ public class Ex14_1 {
         double width = sc.nextDouble();
         System.out.print("Enter the height: ");
         double height = sc.nextDouble();
+
         Rectangle rectangle = new Rectangle(width, height);
 
         System.out.println("Your Rectangle \n" + rectangle.display());
